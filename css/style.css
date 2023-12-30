@@ -69,6 +69,7 @@ body {
 
 .header_section {
   overflow-x: hidden;
+  overflow-y:hidden;
 
 }
 
@@ -238,7 +239,8 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: relative;
+
+
 }
 
 .slider_section .row {
@@ -250,6 +252,7 @@ a:focus {
 .slider_section .row > div {
   position: unset;
 }
+
 
 .slider_section .detail-box h1 {
   color: #413b3b;
@@ -277,6 +280,7 @@ a:focus {
 
 .slider_section .detail-box .btn-box a {
   text-align: center;
+
   width: 165px;
   font-size: 15px;
   margin: 5px;
@@ -318,12 +322,16 @@ a:focus {
   color: rgb(139, 158, 137), 228, 207;
 }
 
+.carousel-item {
+  height: 80%; /* Set your preferred fixed height in pixels */
+  
 
-
+}
 
 .slider_section #carouselExampleIndicators {
   position: unset;
   width: 100%;
+
 }
 
 .slider_section .carousel_btn-container {
@@ -539,12 +547,12 @@ a:focus {
 
 .freelance_section .tab_container .t-link-box .detail-box h5 {
   font-weight: bold;
-  color: #edb5dd;
+  color: #4b4231;
 }
 
 .freelance_section .tab_container .t-link-box .detail-box h3 {
   font-weight: bold;
-  color: #252525;
+  color: #756363;
 }
 
 .freelance_section .tab_container .t-link-box[aria-expanded="true"] .img-box, .freelance_section .tab_container .t-link-box:hover .img-box {
@@ -769,7 +777,7 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
+    -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
   -webkit-box-pack: center;
@@ -852,13 +860,26 @@ a:focus {
 }
 
 .footer {
-  background-color: rgb(243, 238, 226);
+  background-color: rgb(225, 220, 206);
   color: #2c2c2c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   
   text-align: left-align;
   font-family:'Comic Sans MS', cursive;
+  
   padding:20px;
   font-size: 15px;
+
+  
 
 }
 
@@ -873,6 +894,10 @@ a:focus {
   cursor: pointer;
 }
 
+.resumelink {
+  text-align: center;
+  margin-bottom: 50px;
+}
 
 /* Styling for links in the footer */
 
