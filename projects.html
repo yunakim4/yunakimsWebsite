@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+  <html>
+
+  <head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Yuna Kim</title>
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
+  </head>
+  <header class="header_section">
+
+      <nav class="navbar navbar-expand-lg custom_nav-container">
+        <a class="navbar-brand" href="index.html">
+        <!-- <img src="images/logo.png" alt="" /> -->
+        <span style =   "font-size: 34px;
+        color: rgb(149, 140, 119);
+        background-color: rgb(255, 255, 255);
+        padding: 10px 20px;
+        border-radius: 25px; 
+        text-shadow: 4px 4px 0 #edd7ec;">
+          Yuna Kim
+        </span>
+   
+        </a>
+        <nav class = "navbar">
+          <ul class = "nav-links" style ="  list-style: none;
+          padding: 0;
+          margin: 0;
+          display: flex;">
+            <li style = "margin: 10px;"><a href="index.html" style = "text-decoration: none;
+              color: #000000;" onmouseover="this.style.color='#a87d7d'" onmouseout="this.style.color='#000000'">Home</a></li>
+            <li style = "margin: 10px;"><a href="resume.html" style = "text-decoration: none;
+              color: #000000;" onmouseover="this.style.color='#a87d7d'" onmouseout="this.style.color='#000000'">Resume</a></li>
+            <li style = "margin: 10px;"><a href="projects.html" style = "text-decoration: none;
+              color: rgb(0, 0, 0);" onmouseover="this.style.color='#a87d7d'" onmouseout="this.style.color='#000000'">Projects</a></li>
+            <li style = "margin: 10px;"><a href="contact.html" style = "text-decoration: none;
+              color: #000000;"onmouseover="this.style.color='#a87d7d'" onmouseout="this.style.color='#000000'">Contact</a></li>
+           <li style = "margin: 10px;"> <a href = "https://www.linkedin.com/in/yuna-kim-405077221/" style = "text-decoration: none;
+            color: #000000;" onmouseover="this.style.color='#a87d7d'" onmouseout="this.style.color='#000000'">Linkedin</a></li>
+                      
+        </nav>
+      </nav>
+    </div>
+    <style>
+      /* Updated styles with original gradient and six projects */
+      body {
+        font-family: 'Comic Sans MS', cursive;
+        background-color: hsl(0, 0%, 100%);
+        margin: 0;
+        padding: 0;
+      }
+  
+      .projects-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 50px auto;
+        max-width: 1200px;
+      }
+  
+      .project-card {
+        position: relative;
+        overflow: hidden;
+        width: 300px;
+        margin: 20px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+        background: linear-gradient(to bottom right, #e0d8c2, #ffffff);
+        color: #2c2c2c;
+        transition: transform 0.3s;
+        transform-origin: center bottom;
+      }
+  
+      .project-card:hover {
+        transform: scale(1.05);
+      }
+  
+      .project-image {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+      }
+  
+      .project-details {
+        padding: 20px;
+      }
+  
+      .project-title {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+        color: rgb(122, 93, 93);
+      }
+  
+      .project-description {
+        font-size: 0.9rem;
+        margin-bottom: 15px;
+        color: #444;
+      }
+  
+      .project-link {
+        display: block;
+        padding: 10px 20px;
+        background-color: rgb(237, 218, 218);
+        color: #2c2c2c;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 8px;
+        transition: background-color 0.3s, color 0.3s;
+        font-size: 1rem;
+        font-weight: bold;
+      }
+  
+      .project-link:hover {
+        background-color: rgba(255, 255, 255, 0.5);
+        color: #444;
+      }
+    </style>
+  </header>
+
+  <body>
+    <section>
+    <h1 style =   "font-size: 50px;
+    color: rgb(149, 140, 119);
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 25px; 
+    text-shadow: 4px 4px 0 #edd7ec; text-align: center;">Projects</h1>
+    <div class="projects-container">
+      <!-- Project 1 -->
+      <div class="project-card">
+        <img src="images/p1.png" alt="H2OhNo Project Image" class="project-image">
+        <div class="project-details">
+          <h3 class="project-title">H2OhNo!</h3>
+          <p class="project-description">H2OhNo is an innovative solution to combat water contamination in developing regions. Can detect if water is contaminated based on 
+            user's water sample and user descriptions. Finally, H2OhNo includes a virtual mapping feature where contamination reports are plotted to help identify clusters of contamination reports in the same area.</p>
+          <a href="https://devpost.com/software/h2ohno" class="project-link">Learn More</a>
+        </div>
+      </div>
+  
+      <!-- Project 2 -->
+      <div class="project-card">
+        <img src="images/datekit.png" alt="Date Kit Project Image" class="project-image">
+        <div class="project-details">
+          <h3 class="project-title">Date Kit</h3>
+          <p class="project-description">We were inspired by the Valentine's Day Theme! We realized that there are many pre existing applications to look for dates (Tinder, Bumble, etc.), with less of an emphasis on what comes next! Specifically, we hoped to build a web app to help make spending time with your significant other easier and more fun!</p>
+          <a href="https://devpost.com/software/date-kit" class="project-link">Learn More</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="images/opticar.png" alt="Opticars Project Image" class="project-image">
+        <div class="project-details">
+          <h3 class="project-title">Opticars</h3>
+          <p class="project-description">(IN PROGRESS) Work with a team to utilize Tobii Glasses Pro3 to stream eye-movement data and design cars on Arduino. Decode data into saccade and blinks to build machine learning models to detect user intentions when
+            controlling the car
+            </p>
+          <a href="https://github.com/crasgaitis/opticars" class="project-link">Learn More</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="images/flightapp.png" alt="Flight App Project Image" class="project-image">
+        <div class="project-details">
+          <h3 class="project-title">Flight App</h3>
+          <p class="project-description">Implemented database application and worked with transaction management to perform queries. Used SQL and concurrency to improve efficiency of search time from within Java via JDBC</p>
+          <a href="https://github.com/yunakim4/Flights-App" class="project-link">Learn More</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="images/youthpanelists.png" alt="Youth Panelists Project Image" class="project-image">
+        <div class="project-details">
+          <h3 class="project-title">Building Bridges of Belonging to Counter Racism and Create Transformative Change Panelist</h3>
+          <p class="project-description">This session offered a space for youth presenters from Communities of Opportunity & Health and Safe Environments' community partner organizations to share how their work changed in the context of COVID-19, George Floyd and the demand for racial justice.</p>
+          <a href="https://www.youtube.com/watch?v=mR4FzJn2kkY" class="project-link">Learn More</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="images/image1.jpeg" alt="Photography Project Image" class="project-image">
+        <div class="project-details">
+          <h3 class="project-title">Flickr Photos</h3>
+          <p class="project-description"> I enjoy photography and have put together a small portfolio during one of my photography classes! I hope to practice this hobby more</p>
+          <a href="https://www.flickr.com/photos/195420516@N08/" class="project-link">Learn More</a>
+        </div>
+      </div>
+
+    </section>
+
+   
+  
+  </body>
+
+  <div class="footer" >
+
+    <p class="contact-info">Contact: yunakhim@gmail.com</p>
+     <p class="contact-info">Phone: (253) 391-9227</p>
+     <p>&copy; 2023 Yuna Kim</p>
+    
+ </div>
+
+  </html>
