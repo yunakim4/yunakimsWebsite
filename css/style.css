@@ -1,5 +1,5 @@
 body {
-  font-family: 'Sans Serif';
+  font-family: 'Helvetica', 'Arial', Sans-Serif;
   color: #0c0c0c;
   background-color: #ffffff;
 }
@@ -318,7 +318,6 @@ a:focus {
 
 .slider_section .detail-box .btn-box .btn-2:hover {
   background-color: transparent;
-  border-color: ;
   color: rgb(139, 158, 137), 228, 207;
 }
 
@@ -874,7 +873,7 @@ a:focus {
           justify-content: center;
   
   text-align: left-align;
-  font-family:'Sans-Serif';
+  font-family:'Helvetica', 'Arial', sans-serif;
   
   padding:20px;
   font-size: 15px;
