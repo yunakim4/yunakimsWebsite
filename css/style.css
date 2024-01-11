@@ -1,5 +1,5 @@
 body {
-  font-family: 'Comic Sans MS', cursive;
+  font-family: 'Sans Serif';
   color: #0c0c0c;
   background-color: #ffffff;
 }
@@ -874,7 +874,7 @@ a:focus {
           justify-content: center;
   
   text-align: left-align;
-  font-family:'Comic Sans MS', cursive;
+  font-family:'Sans-Serif';
   
   padding:20px;
   font-size: 15px;
